@@ -50,7 +50,4 @@ Post Order:
 ##Perhatikan code diatas, apakah ada perbedaan antara logika dari code Binary Tree dengan Binary 
 Search Tree? Jika ada tunjukkan bagian mana yang berbeda dan jelaskan kepada asisten masing-
 masing.
-=> /* Perbedaan tersebut tercermin dalam logika penyusunan data pada metode NewNode dalam kode yang Anda berikan.
-Dalam binary tree yang Anda implementasikan, data baru hanya dimasukkan ke dalam struktur tanpa memperhatikan
-urutan nilai data, sementara pada BST, data baru disusun sesuai dengan urutan nilai untuk memanfaatkan keunggulan
-pencarian yang efisien. */
+=> /* perbedaan utama antara Binary Tree dan Binary Search Tree (BST) terletak pada aturan penempatan node. Dalam Binary Tree, tidak ada aturan khusus mengenai bagaimana node ditempatkan, sehingga nilai node bisa ditempatkan di posisi mana saja tanpa mengikuti urutan tertentu. Sebaliknya, dalam Binary Search Tree, setiap node harus ditempatkan mengikuti aturan tertentu: nilai di node kiri harus lebih kecil dari nilai di node saat ini, dan nilai di node kanan harus lebih besar. Aturan ini memungkinkan BST untuk melakukan operasi pencarian, penambahan, dan penghapusan node dengan lebih efisien. */
